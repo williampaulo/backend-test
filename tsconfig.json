@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2018"],
+
+    "outDir": "./dist",
+
+    "strict": true,
+
+    "strictPropertyInitialization": false,
+
+    "baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@config/*": ["config/*"],
+      "@shared/*": ["shared/*"],
+      "@helpers/*": ["helpers/*"]
+    },
+
+    "typeRoots": ["./src/@types"],
+    "types": ["@types/node", "@types/jest"],
+
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
