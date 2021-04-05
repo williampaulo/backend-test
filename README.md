@@ -8,7 +8,6 @@
 ## Quais diferenciais foram explorados?
 
 - Testes unitários
-- Testes de integração
 - Autenticação JWT
 
 ## Requisitos para testa o código
