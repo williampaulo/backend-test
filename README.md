@@ -16,14 +16,6 @@
 - Docker
 - Docker Compose
 
-## Instalando
-
-### Usando yarn
-
-```bash
-yarn install
-```
-
 ### Subindo os containers
 
 ```bash
@@ -34,6 +26,20 @@ docker-compose up -d
 
 ```bash
 docker exec -it backend bash
+```
+
+## Instalando dependências
+
+### Usando yarn
+
+```bash
+yarn install
+```
+
+### Usando npm
+
+```bash
+npm install
 ```
 
 ### Suba as migrations
